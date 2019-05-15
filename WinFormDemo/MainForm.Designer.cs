@@ -33,6 +33,7 @@
             this.buttonXMLControl = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonCSharpCallDll = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // buttonAttribute
@@ -93,11 +94,21 @@
             this.buttonCSharpCallDll.UseVisualStyleBackColor = true;
             this.buttonCSharpCallDll.Click += new System.EventHandler(this.buttonCSharpCallDll_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(237, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(551, 426);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "基础";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.buttonCSharpCallDll);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonXMLControl);
@@ -117,6 +128,7 @@
         private System.Windows.Forms.Button buttonXMLControl;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonCSharpCallDll;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
